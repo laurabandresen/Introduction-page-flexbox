@@ -83,6 +83,7 @@ nav {
     display: flex;
     gap: 50px;
     margin: 30px 20px;
+    justify-content: space-around;
 }
 
 nav a {
@@ -129,6 +130,7 @@ label {
 width: 400px;
 text-align: left;
 }
+
 label[for="Message"]{
     text-align: center;
 }
