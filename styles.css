@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@400;600;700&display=swap');
+
+body {
+  background-color: #f7f5f2;
+  color: #2f2f2f;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: "Mali", cursive;
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+img {
+  display: block;
+  width: 300px;
+  max-width: 100%;
+  margin: 30px auto;
+  border-radius: 20px;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 20px;
+}
+
+section {
+  background-color: #e8eadf;
+  padding: 25px;
+  margin: 30px 0;
+  border-radius: 25px;
+}
+
+.bottom-sections {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  }
+  .bottom-sections section {
+    flex: 1;
+  }
+@media (max-width: 400px) {
+  
+    .bottom-sections {
+    flex-direction: column;
+  }
+}
+
+.about {
+  background-color: #e8eadf;
+  border: 3px solid #d5d8ca;
+}
+
+.work {
+  background-color: #f3edcf;
+  border: 3px solid #ddd5ae;
+}
+
+.personality {
+  background-color: #e5e2eb;
+  border: 3px solid #cec8d8;
+}
+
+.fun-fact {
+  background-color: #f1e7df;
+  border: 3px solid #d8cfc6;
+}
+
+.intro {
+  text-align: center;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+header {
+  padding: 15px 20px;
+  font-size: 14px;
+  border-bottom: 2px solid #d5d8ca;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  border-top: 2px solid #d5d8ca;
+}
