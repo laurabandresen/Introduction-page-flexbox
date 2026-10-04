@@ -88,6 +88,7 @@ nav {
 nav a {
 color: #2f2f2f;
 text-decoration: none;
+font-size: x-small;
 }
 
 header {
@@ -101,4 +102,33 @@ footer {
   text-align: center;
   font-size: 14px;
   border-top: 2px solid #d5d8ca;
+}
+.get-in-touch {
+    text-align: center;
+    padding: 30px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    width: 400px;
+    height: 50px;
+
+}
+input[type="submit"]{
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+}
+
+label {
+width: 400px;
+text-align: left;
+}
+label[for="Message"]{
+    text-align: center;
 }
