@@ -43,14 +43,18 @@ section {
   gap: 20px;
   justify-content: center;
   }
+
   .bottom-sections section {
     flex: 1;
   }
-@media (max-width: 400px) {
+@media (max-width: 700px) {
   
     .bottom-sections {
     flex-direction: column;
   }
+    input, textarea {
+        max-width: 90%;
+}
 }
 
 .about {
@@ -124,6 +128,17 @@ input[type="submit"]{
     width: 150px;
     height: 50px;
     font-size: 15px;
+    background-color: white;
+    color: #2f2f2f;
+}
+
+input[type="submit"]:hover{
+    background-color: #2f2f2f;
+    color: white;
+}
+
+input:focus, textarea:focus{
+border: solid 3px #cec8d8;
 }
 
 label {
